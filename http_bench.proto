@@ -1,0 +1,11 @@
+package pbs;
+
+message Ping{
+	required string id = 1;
+	required string payload = 2;
+}
+
+message Pong {
+	required string id = 1;
+	required string payload = 2;
+}
